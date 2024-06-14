@@ -1,0 +1,24 @@
+.modal-box {
+    max-width: 400px;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 80vh;
+  }
+  
+  .modal-box div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .modal-box div img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  .searchList{
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+    color: #335c6e;
+  }

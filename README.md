@@ -1,18 +1,31 @@
  ![svgviewer-output](https://github.com/ElloTechnology/backend_takehome/assets/3518127/561bc8d4-bffc-4360-b9ea-61e876bcec93)
 
 
-# Ello Engineering Challenge
+# Response to Engineering Challenge(Project Setup)
+Ensure you have node and npm installed.
 
-👋 Hello,
-We are really excited about you potentially joining the team, so we designed this take home exercise to give you a taste of the challenges you may encounter in the role, and better understand what it would be like to work closely together.
+Clone the repository.
 
-Thanks for taking the time, and we hope to talk with you soon!
+Navigate to the Project Directory:
+Change your current directory to the project directory.
+
+```bash
+cd frontend
+```
+Install dependencies:
+```bash
+npm install
+```
+Start the development server:
+```bash
+npm start
+```
+Open your browser and navigate to http://localhost:3000.
+
 
 ## About Ello
 
 Ello is a forward-thinking educational technology company dedicated to revolutionizing the way children learn to read. Our mission is to empower young readers with the tools they need to become proficient and passionate readers. We believe that fostering a love for reading is essential for a child's academic and personal growth.
-
-**Note:** Please don't fork this repository or create a pull request against it. Other applicants may take inspiration from it. You should create another repository for the challenge. Once the coding challenge is completed, email your solution back to our team at [fullstack2024@ello.com](mailto:fullstack2024@ello.com).
 
 
 ## Challenge
@@ -68,18 +81,5 @@ query Books {
 ```
 
 You can use this query to get the list of books to display in your frontend. You may need to adjust the `coverPhotoURL` to be a valid URL. The photos are in the `src/frontend/assets` directory.
-
-### Styling Guidelines
-- Use the "Mulish" Google font
-- You can use the following colors (You don't have to use all but you can pick and choose from here)
-<img width="961" alt="Screenshot 2024-05-14 at 17 36 40" src="https://github.com/ElloTechnology/fullstack-take-home-test/assets/3518127/15922f8f-a7c7-4033-8405-76988e95afb3">
-
-
-
-
-### You will be evaluated on
-- Code quality and organization.
-- User experience and design.
-- Beautiful and responsive UI.
 
 
